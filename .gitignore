@@ -1,0 +1,10 @@
+.DS_Store
+/*
+!/.gitignore
+!/mcode.png
+!/README.md
+!/code-portable-data
+/code-portable-data/user-data/*
+!/code-portable-data/user-data/User
+/code-portable-data/user-data/User/*
+!/code-portable-data/user-data/User/*.json
