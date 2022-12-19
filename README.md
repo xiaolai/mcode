@@ -2,7 +2,7 @@
 
 NOTE: Only tested on MacOS.
 
-Downlad [Official Release of Visual Studio Code](https://github.com/microsoft/vscode/releases) and rename it to `mcode.app`, and put it into this folder.
+Downlad [Official Release of Visual Studio Code](https://github.com/microsoft/vscode/releases) and rename it to `mcode.app`, and put it into this folder, for example: `/Applications/mcode/mcode.app`.
 
 ## Installed Extensions
 * Github Theme
@@ -97,8 +97,17 @@ Downlad [Official Release of Visual Studio Code](https://github.com/microsoft/vs
 
 ## Commandline: `mcode`
 
-**Prerequisite**: Have Homebrew installed already. 
+**Prerequisites**: 
+
+1. Have Homebrew installed already. 
+2. Have mcode stored as `/Applications/mcode/mcode.app`
 
 ```bash
 ln -s /Applications/mcode/mcode.app/Contents/Resources/app/bin/code /opt/homebrew/bin/mcode
 ```
+
+## Icons
+
+Check out https://github.com/dhanishgajjar/vscode-icons.
+
+![](https://github.com/dhanishgajjar/vscode-icons/raw/master/images/drag-drop.png)
